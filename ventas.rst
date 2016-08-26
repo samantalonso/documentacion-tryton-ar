@@ -32,7 +32,7 @@ En esta sección se armarán las facturas, cumpliendo siempre con el flujo de fa
 Podríamos representarlo así:
 
  /Borrador > Presupuesto > Confirmada > En proceso > Realizada/
-                          > Cancelada/
+                                      > Cancelada/
 
 
 
@@ -41,6 +41,9 @@ Crear una nueva venta
 
 Al acceder a ventas se nos abrirá una pestaña con un listado de las ventas que hemos ido introduciendo con anterioridad clasificadas según el estado en el que se encuentran (*Borrador*, *Presupuesto*, *Confirmado*, *En proceso*).
 Además, también podremos ver un listado con todas las ventas realizadas, independientemente de su estado. Haciendo doble clic sobre cualquier cualquier venta del listado accederemos a su información concreta y detallada. Si lo que queremos es crear una venta nueva deberemos hacer click sobre el icono *Nuevo* y se nos abrirá el formulario de edición con los campos que deberemos rellenar para crear la venta.
+
+.. image:: img/ventas1.png
+   :width: 750 px
 
 
 La venta está compuesta por una parte en la que se define el cliente con sus datos (Cabecera), y otra compuesta por varias pestañas que contendrán información concreta sobre la venta en sí. En la cabecera, una vez indiquemos el Tercero se rellenarán automáticamente los campos Dirección de facturación y Dirección de envío con la información que tengamos en la ficha del Tercero, pudiéndolos modificar si lo deseamos.
